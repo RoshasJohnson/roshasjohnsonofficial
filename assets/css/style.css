@@ -26,6 +26,9 @@ font-family: 'Poppins', sans-serif;
 		1.General css (Reset code)
 --------------------------------------*/
 *{
+    background-color: black;
+}
+*{
     padding: 0;
     margin: 0;
 }
@@ -106,12 +109,12 @@ html,body{
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
-    background-color: #fff;
+    background-color:black;
     border: none;
 }
 
 nav.navbar.bootsnav {
-    background-color: #fff;
+    background-color:black      ;
     border-bottom: transparent;
     box-shadow: 0 3px 15px rgba(0,0,0,.2);
 }
@@ -199,6 +202,7 @@ body{
     background-position: center;
     height:890px;
     width: 100%;
+    
 }
 .welcome-hero:before{
     position:absolute;
@@ -208,6 +212,7 @@ body{
     background:rgba(16, 17, 20, 0.65);
     width:100%;
     height:100%;
+    
 }
 
 /*.header-text-area*/
@@ -217,6 +222,7 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
+    background: none;
 }
 .header-text h2 span {color: #d92cf9;}
 .header-text p {
@@ -334,7 +340,7 @@ body{
 --------------------------------------*/
 
 .education {
-    background:  #f9fbfd;
+    background:  black;
     padding-top:  50px;
 }
 .education-horizontal-timeline {
@@ -694,7 +700,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         11. Contact
 --------------------------------------*/
 .contact {
-    background: #f9fbfd;
+    background: black
     padding: 50px 0 100px;
 }
 .single-contact-box {padding-top: 100px;}
